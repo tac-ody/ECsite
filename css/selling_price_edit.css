@@ -1,0 +1,39 @@
+body {
+  background-color: #f5f5dc;
+  text-align: center;
+}
+#contents {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+#title {
+  font-size: 50px;
+}
+#item_name ,#item_genre ,#item_maker ,#item_brand
+ ,#item_price ,#selling_price {
+  width: 190px;
+  height: 25px;
+  text-align: center;
+  font-weight:  bold;
+}
+#start_datetime ,#end_datetime {
+  width: 210px;
+  height: 25px;
+  text-align: center;
+  font-weight:  bold;
+}
+.selling_price_all {
+  width: 180px;
+  height: 25px;
+  text-align: center;
+}
+#selling_price_edit ,#selling_price_delete {
+  margin-top: 25px;
+  background: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 20px;
+}

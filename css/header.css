@@ -1,0 +1,23 @@
+.header_title {
+  font-size: 60px;
+  width:700px;
+  margin: 30px auto;
+  color: black;
+}
+.logout {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.logout_button {
+  width: 120px;
+  height: 40px;
+  font-size: 13px;
+  background-color: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,88 @@
+body {
+  background-color: #f5f5dc;
+  text-align: center;
+}
+#contents {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+}
+#title {
+  font-size: 50px;
+}
+#item_name ,#item_genre ,#item_maker ,#item_brand
+ ,#item_price ,#start_datetime ,#end_datetime ,#selling_price {
+  width: 190px;
+  height: 25px;
+  text-align: center;
+  font-weight:  bold;
+}
+.selling_price_all {
+  width: 180px;
+  height: 25px;
+  text-align: center;
+}
+#button_search {
+  margin-top: 25px;
+  background: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 20px;
+}
+.item-edit-price-change_submit {
+  background: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 10px;
+  margin-top: 3px;
+}
+.column-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.column-title_individual {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;right:55px;
+  flex-wrap: wrap;
+  width: 1050px;
+  padding: 15px 0px;
+}
+.item-list {
+  margin-top: 30px;
+}
+.item-list_line{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1050px;
+  border: ridge 3px #005FFF;
+  border-radius: 5px;
+  padding: 15px 0px;
+  margin-bottom: 5px;
+}
+.space {
+  width: 110px;
+  font-size: 13px;
+}
+.text-information {
+  width: 110px;
+  font-size: 13px;
+}
+.subtitle {
+  font-weight: bold;
+  font-size: 25px;
+}
+img {
+  width: 120px;
+  height: 120px;
+}

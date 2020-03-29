@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f5dc;
+}
+#genre_done_message h1 {
+  text-align: center;
+  position: absolute;
+  top: 230px;
+  left: 480px;
+}
+
+#button {
+  text-align: center;
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  margin-top: 25px;
+}
+#top_page ,#regist_more {
+  background: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 6px 20px;
+  cursor: pointer;
+}

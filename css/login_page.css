@@ -1,0 +1,30 @@
+body {
+  background-color: #f5f5dc;
+}
+.login-contents_title {
+  font-size: 50px;
+  margin: 0px;
+}
+.login-contents {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.input-form {
+  margin-top: 30px;
+}
+.input-form_box {
+width: 20%;
+height: 25px;
+font-size: 25px;
+}
+.login-submit {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  background-color: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}

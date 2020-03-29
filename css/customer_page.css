@@ -1,0 +1,163 @@
+body {
+  animation: fadeIn 3s ease 0s 1 normal;
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
+  background-color: #D9E5FF;
+  text-align: center;
+  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro",
+              "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+#other {
+  text-align: center;
+}
+#payment ,#question ,#login ,#cart{
+  background-color: #BAD3FF;
+  padding: 7px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+a{
+  vertical-align: middle; /* 上下中央に寄せる */
+  font-size: 14px;
+}
+.fab {
+  color: #444444;
+}
+.fas {
+  color: #444444;
+  z-index: 10;
+}
+#main_title {
+  font-size: 50px;
+}
+#title {
+  clear: both;
+  margin-top: 70px;
+  font-size: 35px;
+}
+#item_name ,#item_genre ,#item_maker ,#item_brand ,#item_price {
+  width: 220px;
+  height: 30px;
+  text-align: center;
+  font-weight:  bold;
+  border-radius: 5px;
+cursor: pointer;
+}
+.selling_price_all {
+  width: 180px;
+  height: 25px;
+  text-align: center;
+}
+#button_search {
+  margin-top: 25px;
+  background: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+.column-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.column-title_individual {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;left:12px;
+  flex-wrap: wrap;
+  width: 950px;
+  padding: 15px 0px;
+}
+.item-list {
+  justify-content: center;
+  align-items: center;
+}
+.item-list_line{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 950px; */
+  border: ridge 3px #005FFF;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 170px;
+  margin-right: 170px;
+  padding: 15px 0px;
+}
+.space {
+  width: 110px;
+  font-size: 13px;
+}
+.text-information {
+  width: 120px;
+  font-size: 13px;
+}
+img {
+  width: 120px;
+  height: 120px;
+}
+.cart_item {
+  background: lightgray;
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 5px 5px 22px;
+  position: relative;right:18px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.ajax_message {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;top:210px;
+}
+#overlay{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height:100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+}
+.cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner {
+    width: 100px;
+    height: 100px;
+    border: 5px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.7s infinite linear;
+}
+@keyframes sp-anime {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.is-hide{
+    display:none;
+}
